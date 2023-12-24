@@ -1,0 +1,151 @@
+ @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+ .header {
+    width: 100%;
+    height: 100vh;
+    background-color:lightgray
+ }
+ 
+ 
+ nav {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+ }
+ 
+ nav ul li a:hover {
+    background-color: wheat;
+    border-radius: 100px;
+    color: black;
+    border: 2px solid blanchedalmond;
+ }
+ 
+ .button-cv, .button-gfc{
+    display: inline-block;
+    margin-left: 0%;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    background: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .button-cv:hover {
+    background-color: lightskyblue;
+    color: black;
+ }
+ 
+ .button-gfc{
+    background: lightsalmon;
+ }
+ 
+ .button-gfc:hover {
+    background-color: burlywood;
+    color: black;
+ }
+ 
+ 
+ .body {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 23px;
+ }
+ 
+ .body h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+ }
+ 
+ .demo1 {
+    color:darkcyan;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    font-size: larger;
+ }
+   
+ .demo2 {
+    color: black;
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    
+ }
+ 
+ .button-lrn, .button-hire{
+    background: lightsalmon;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ 
+ .button-lrn:hover {
+    background-color: burlywood;
+    color: black;
+ }
+ 
+ .button-hire {
+    background: black;
+ }
+ 
+ .button-hire:hover {
+    background-color:cornflowerblue;
+ }
+ 
+ span {
+    color: salmon;
+ }
+ 
+ .image {
+    width: 400px;
+    height: 70%;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+ }
+ 
+ .image img {
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-60%);
+    border-radius: 50px;
+    border: 2px solid lightseagreen;
+
+    
+    
+      
+ }
+ 
